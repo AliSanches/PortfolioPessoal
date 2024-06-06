@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="./imagens/icones/rastreamento.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/f9ed4d84f1.js" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/f9ed4d84f1.js" crossorigin="anonymous"></script>
+
+    <script src="js/script.js" defer></script>
+    <script src="js/validacao.js" defer></script>
+    <script src="js/navMenu.js" defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@500&display=swap" rel="stylesheet">
+
+    <title>Portfólio</title>
+</head>
+<body>
+    <div class="scrollTop" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <div class="principal">
+        <!-- INICIO HEADER -->
+        <header class="imagem-fundo">
+            <div class="conter" id="home">
+                <nav class="links">
+                    <div class="logo">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <ul class="itens">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#habilidade">HABILIDADES</a></li>
+                        <li><a href="#portfolio">PORTFÓLIO</a></li>
+                        <li><a href="#rodape-final">CONTATO</a></li>
+                    </ul>
+        
+                    <!-- INICIO MENU MOBILE -->
+                    <button class='menu-btn_ativar'>
+                        <img src="./imagens/menu.png" alt="Ícone de menu" />
+                    </button>
+
+                    <div class='menu-mobile'>
+
+                        <button class='menu-btn'>
+                            <img src="./imagens/fechar.png" alt="Ícone de fechar" />
+                        </button>
+
+                        <ul id="listaNav">
+                            <li>
+                                <a class='menu-item' href="#home">HOME</a>
+                            </li>
+                            <li>
+                                <a class='menu-item' href="#habilidade">HABILIDADES</a>
+                            </li>
+                            <li>
+                                <a class='menu-item' href="#portfolio">PORTFÓLIO</a>
+                            </li>
+                            <li>
+                                <a class='menu-item' href="#rodape-final">CONTATO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+        
+                <div class="divisao">
+                    <div class="efeito-divisao"></div>
+                </div>
+        
+                <div class="conteudo-topo">
+                    <section class="lateral-esquerda">
+                        <h1 id="titulo">Developer Front-end.</h1>
+        
+                        <div class="apresentacao">
+                            <p>Olá, prazer! Sou o Alisson, atualmente sou desenvolvedor front-end buscando sempre mais conhecimento e consolidando toda base que já possuo,
+                                futuramente pretendo atuar no mercado de trabalho como desenvolvedor Full Stack. Sou um entusiasta de games e músicas, já fui jogador amador
+                                desse mercado de games mas estou dando um passo a frente no momento.
+                            </p>
+        
+                            <div class="btn-contato">
+                                <a target="_blank" href="cv/CV Alisson Fernand.pdf" download="AlissonFernand.pdf">
+                                    <button>Currículo</button>
+                                </a>
+                            </div>
+                        </div>
+        
+                    </section>
+                    <section class="lateral-direita">
+        
+                        <div class="perfil">
+                            <img src="imagens/perfil.webp" alt="logo-perfil">
+                        </div>
+        
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/alisson-sanches-b79039211/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/AliSanches" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:alissonsanches19@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </header>
+        <!-- FINAL HEADER -->
+        
+
+        <!-- INICIO TECNOLOGIA-->
+        <div class="passagem">
+            <div class="scroll imgbox" style="--t:15s">
+                <div class="scroll-itens">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-php"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                </div>
+                <div class="scroll-itens">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-php"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                </div>
+            </div>
+        </div>
+        <!-- FINAL TECNOLOGIA -->
+
+
+        <!-- INICIO HABILIDADES -->
+        <main class="conteudo-habilidade" id="habilidade">
+            <h1 data-anime="top">HABILIDADES</h1>
+            <div class="conter-habilidade">
+                <div class="lateral-esq-hab">
+                    <div class="conteudo-cert">
+                        <div class="certificados">
+                            <h4 data-anime="top">Minha Educação</h4>
+                            <span>2023 - 2025</span>
+                            <h5 class="curso-titulo">Análise e Desenvolvimento de Sistemas</h5>
+                            <p class="curso-texto">A análise e desenvolvimento de sistemas (ADS) é uma área da tecnologia da informação focada na concepção, criação e manutenção de sistemas de informação. </p>
+                        </div>
+                        <div class="certificados">
+                            <span>2023 - 2024</span>
+                            <h5 class="curso-titulo">Técnico em Informática</h5>
+                            <p class="curso-texto">Montagens e manutenção de microcomputadores, instalar e configurar redes e desenvolver sistemas Desktop e Websites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lateral-dir-hab">
+                    <div class="conteudo-cert">
+                        <div class="certificados">
+                            <h4 data-anime="top">Minhas Habilidades</h4>
+                            <h5 class="nivel" data-anime="top">HTML</h5>
+                        <div class="barra" data-anime="top">
+                            <div class="progresso-html"></div>
+                        </div>
+
+                        <h5 class="nivel" data-anime="top">CSS</h5>
+                        <div class="barra" data-anime="top">
+                            <div class="progresso-css"></div>
+                        </div>
+
+                        <h5 class="nivel" data-anime="top">JAVASCRIPT</h5>
+                        <div class="barra" data-anime="top">
+                            <div class="progresso-javascript"></div>
+                        </div>
+
+                        <h5 class="nivel" data-anime="top">PHP</h5>
+                        <div class="barra" data-anime="top">
+                            <div class="progresso-php"></div>
+                        </div>
+
+                        <h5 class="nivel" data-anime="top">BOOSTRAP</h5>
+                        <div class="barra" data-anime="top">
+                            <div class="progresso-boostrap"></div>
+                        </div>
+
+                        <h5 class="nivel" data-anime="top">MYSQL</h5>
+                        <div class="barra" data-anime="top">
+                            <div class="progresso-mysql"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- INICIO HABILIDADES -->
+
+        <!-- INICIO PORTFOLIO -->
+        <section class="portfolio" id="portfolio">
+            <div class="conter-portfolio">
+                <h1 data-anime="top">PORTFOLIO</h1>
+
+                <!-- INICIO DESKTOP -->
+                <div id="conteudo-port">
+                    <div class="projetos">
+                        <div class="sobre">
+                            <h2 data-anime="top">PROJETO 1</h2>
+                            <h3 data-anime="top">Sistema de Reserva</h3>
+                            <p data-anime="top">O objetivo principal deste projeto é 
+                                desenvolver um sistema de reserva de salas, 
+                                destinado a atender a crescente necessidade 
+                                de agendamento de espaços. O projeto visa 
+                                oferecer uma solução eficiente para auxiliar 
+                                na gestão e reserva de salas de reuniões, 
+                                auditórios ou qualquer outro tipo de espaço 
+                                que requer agendamento.
+                            </p>
+
+                            <div class="iconeP">
+                                <i class="fa-solid fa-right-long"></i>
+                            </div>
+                            <a href="https://github.com/AliSanches/SistemaReserva" target="_blank" class="saber">View more</a>
+                        </div>
+                    </div>
+
+                    <div class="projetos">
+                        <div class="bloco-imagem" data-anime="top">
+                            <div class="img-port">
+                                <img src="imagens/Sistema Reserva.png" alt="SistemaReserva">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projetos">
+                        <div class="bloco-imagem" data-anime="top">
+                            <div class="img-port">
+                                <img src="imagens/VisualBoostrap.png" alt="VisualBoostrap">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projetos">
+                        <div class="sobre">
+                            <h2 data-anime="top">PROJETO 2</h2>
+                            <h3 data-anime="top">Visual Boostrap</h3>
+                            <p data-anime="top">O objetivo principal deste projeto é 
+                                desenvolver um sistema de reserva de salas, 
+                                destinado a atender a crescente necessidade 
+                                de agendamento de espaços. O projeto visa 
+                                oferecer uma solução eficiente para auxiliar 
+                                na gestão e reserva de salas de reuniões, 
+                                auditórios ou qualquer outro tipo de espaço 
+                                que requer agendamento.
+                            </p>
+
+                            <div class="iconeP">
+                                <i class="fa-solid fa-right-long"></i>
+                            </div>
+                            <a href="https://github.com/AliSanches/VisualBootstrap" target="_blank" class="saber">View more</a>
+                        </div>
+                    </div>
+
+                    <div class="projetos">
+                        <div class="sobre">
+                            <h2 data-anime="top">PROJETO 3</h2>
+                            <h3 data-anime="top">Web Design</h3>
+                            <p data-anime="top">O objetivo principal deste projeto é 
+                                desenvolver um sistema de reserva de salas, 
+                                destinado a atender a crescente necessidade 
+                                de agendamento de espaços. O projeto visa 
+                                oferecer uma solução eficiente para auxiliar 
+                                na gestão e reserva de salas de reuniões, 
+                                auditórios ou qualquer outro tipo de espaço 
+                                que requer agendamento.
+                            </p>
+
+                            <div class="iconeP">
+                                <i class="fa-solid fa-right-long"></i>
+                            </div>
+                            <a href="https://github.com/AliSanches/WebDesign" target="_blank" class="saber">View more</a>
+                        </div>
+                    </div>
+
+                    <div class="projetos">
+                        <div class="bloco-imagem" data-anime="top">
+                            <div class="img-port">
+                                <img src="imagens/WebDesign.png" alt="WebDesign">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FINAL DESKTOP -->
+
+                <!-- INICIO MOBILE -->
+                <div id="conteudo-port-mobile">
+                    <div class="projetos-port-mobile">
+                        <div class="sobre-port-mobile">
+                            <h2 data-anime="top">PROJETO 1</h2>
+                            <h3 data-anime="top">Sistema de Reserva</h3>
+                            <p data-anime="top">O objetivo principal deste projeto é 
+                                desenvolver um sistema de reserva de salas, 
+                                destinado a atender a crescente necessidade 
+                                de agendamento de espaços. O projeto visa 
+                                oferecer uma solução eficiente para auxiliar 
+                                na gestão e reserva de salas de reuniões, 
+                                auditórios ou qualquer outro tipo de espaço 
+                                que requer agendamento.
+                            </p>
+
+                            <div class="bloco-imagem-mobile" data-anime="top">
+                                <img src="imagens/Sistema Reserva.png" alt="SistemaReserva">
+                            </div>
+
+                            <div class="iconeP">
+                                <i class="fa-solid fa-right-long"></i>
+                            </div>
+                            <a href="https://github.com/AliSanches/SistemaReserva" target="_blank" class="saber">View more</a>
+                        </div>
+                    </div>
+
+                    <div class="projetos-port-mobile">
+                        <div class="sobre-port-mobile">
+                            <h2 data-anime="top">PROJETO 2</h2>
+                                <h3 data-anime="top">Visual Boostrap</h3>
+                                <p data-anime="top">O objetivo principal deste projeto é 
+                                    desenvolver um sistema de reserva de salas, 
+                                    destinado a atender a crescente necessidade 
+                                    de agendamento de espaços. O projeto visa 
+                                    oferecer uma solução eficiente para auxiliar 
+                                    na gestão e reserva de salas de reuniões, 
+                                    auditórios ou qualquer outro tipo de espaço 
+                                    que requer agendamento.
+                                </p>
+
+                                <div class="bloco-imagem-mobile" data-anime="top">
+                                    <img src="imagens/VisualBoostrap.png" alt="VisualBoostrap">
+                                </div>
+
+                                <div class="iconeP">
+                                    <i class="fa-solid fa-right-long"></i>
+                                </div>
+                                <a href="https://github.com/AliSanches/SistemaReserva" target="_blank" class="saber">View more</a>
+                        </div>
+                    </div>
+
+                    <div class="projetos-port-mobile">
+                        <div class="sobre-port-mobile">
+                            <h2 data-anime="top">PROJETO 3</h2>
+                            <h3 data-anime="top">Web Design</h3>
+                            <p data-anime="top">O objetivo principal deste projeto é 
+                                desenvolver um sistema de reserva de salas, 
+                                destinado a atender a crescente necessidade 
+                                de agendamento de espaços. O projeto visa 
+                                oferecer uma solução eficiente para auxiliar 
+                                na gestão e reserva de salas de reuniões, 
+                                auditórios ou qualquer outro tipo de espaço 
+                                que requer agendamento.
+                            </p>
+
+                            <div class="bloco-imagem-mobile" data-anime="top">
+                                <img src="imagens/WebDesign.png" alt="WebDesign">
+                            </div>
+
+                            <div class="iconeP">
+                                <i class="fa-solid fa-right-long"></i>
+                            </div>
+                            <a href="https://github.com/AliSanches/SistemaReserva" target="_blank" class="saber">View more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- FINAL MOBILE -->
+            </div>
+        </section>
+        <!-- FINAL PORTFOLIO -->
+        </div>
+
+        <!-- INICIO RODAPE -->
+        <footer id="rodape-final" id="rodape-contato">
+            <div class="conter-rodape">
+                <h1 data-anime="top">CONTATO</h1>
+
+                <div class="conteudo-rodape">
+                    <div class="bloco-rodape">
+                        <div class="contato">
+                            <div class="feedback">
+                                <h2>Me de um feedback</h2>
+                                <p>Deixando uma mensagem você pode me ajudar a melhorar
+                                minha performance, muito obrigado.
+                                </p>
+                            </div>
+
+                            <div class="contato-redes">
+                                <div class="linhas">
+                                    <a href="tel:19998398168" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                                    <span>(19) 99839-8168</span>
+                                </div>
+
+                                <div class="linhas">
+                                    <a href="mailto:alissonsanches19@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                                    <span>Alissonsanches19@hotmail.com</span>
+                                </div>
+
+                                <div class="linhas">
+                                    <a href="https://maps.app.goo.gl/N6RVNy8DHWR5nLuGA" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+                                    <span>Piracicaba, São Paulo, Brasil</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="bloco-rodape">
+                        <form name="form_envio" method="POST">
+                            
+                            <input type="text" name="nome" placeholder="Nome">
+                            <input type="email" name="email" placeholder="Email">
+                            <textarea placeholder="Mensagem" name="mensagem"></textarea>
+                            
+                            <button type="submit" class="confirmar" onclick="return validar_form()">
+                                ENVIAR
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="divisao-rodape"></div>
+
+                <div class="final">
+                    <div class="divisao-final">
+                        <div class="logo-rodape">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+                    </div>
+
+                    <div class="divisao-final">
+                        <div class="copy">
+                            &copy; Copyright 2023 - Todos os direitos reservados
+                        </div>
+                    </div>
+
+                    <div class="divisao-final">
+                        <div class="sociais-rodape">
+                            <a href="https://www.linkedin.com/in/alisson-sanches-b79039211/" target="_blank" class="redes-contato"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/AliSanches" target="_blank" class="redes-contato"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:alissonsanches19@hotmail.com" target="_blank" class="redes-contato"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+        <!-- FINAL RODAPE -->
+        </div>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var scrollElements = document.querySelectorAll('.scrollTop');
+            scrollElements.forEach(function(scroll) {
+                scroll.classList.toggle('active', window.scrollY > 400);
+            });
+        });
+    
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Adiciona um efeito de rolagem suave
+            });
+        }
+    </script>    
+</body>
+</html>
